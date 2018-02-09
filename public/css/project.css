@@ -1,0 +1,20 @@
+
+.example-class-selector {
+	margin-top: 2em
+}
+
+.titleBar {
+	text-align: center;
+}
+
+.navBar {
+	text-align: center;
+}
+
+.screen {
+	position: absolute;
+	left: 15px;
+	top: 70px;
+	max-width: 300px;
+	text-align: center;
+}
