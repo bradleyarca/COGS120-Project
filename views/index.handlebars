@@ -27,21 +27,44 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 </div>
 
 <!-- buffer lines - need to fix ->
-<hr>
-<hr>
-<hr>
 
-<div class = "container">
-	
+<div class = "activeHome">
+		
 	<!-- Iterate through data.json -->
 	
 	{{#each posts}}
 	<div class="post" id="{{id}}">
 		<img src="{{emote}}" class="postEmote">
 		<h5>You were feeling {{mood}} at {{date}}.</h5>
-		
-		<hr>
 
+		<!-- If photo is attached -->
+		{{# if photoOn}}
+			<img src ="{{photo}}" class="postPhoto">
+		{{/if}}
+
+		<!-- If video is attached -->
+		{{# if videoOn}}
+		<video class="postVideo" controls>
+			<source src="{{video}}" type="video/mp4">
+		</video>
+		{{/if}}
+
+		<!-- If audio is attached -->
+		{{# if audioOn}}
+		<audio class="postAudio" controls>
+			<source src="{{audio}}" type="audio/mpeg">			
+		</audio>
+		{{/if}}
+
+		<!-- If text is attached -->
+		{{# if textOn}}
+			<object class="postText" 
+			data={{text}}
+			></object>
+
+		{{/if}}
+	
+		<hr>
 	</div>
 	{{/each}}
 </div>
@@ -54,11 +77,11 @@ src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></scri
 
 <!-- Bottom fixed nav bar -->
 <div id="navbarbot">
-	<a href="#home"><img src="icons/dataGrey.png"
+	<a href="/graph"><img src="icons/dataGrey.png"
 	class="iconimgbot"></a>
-	<a href="#news"><img src="icons/homeRed.png"
+	<a href=""><img src="icons/homeRed.png"
 	class="iconimgbot"</a>
-	<a href="#contact"><img src="icons/happyGrey.png"
+	<a href="/happy"><img src="icons/happyGrey.png"
 	class="iconimgbot"</a>
 </div>
 

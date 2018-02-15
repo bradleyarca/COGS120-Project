@@ -87,10 +87,30 @@
 /* Start post formatting */
 
 .post {
-  height: 100px;
   text-align: center;
+}
+
+.activeHome{
+	padding-top: 65px;
 }
 
 .postEmote {
   height: 30px;
 }
+
+.postPhoto {
+  width: 80%; 
+}
+
+.postVideo {
+  width: 80%;
+}
+
+.postAudio {
+  width: 80%;
+}
+
+.postText {
+  width: 80%; 
+}
+
