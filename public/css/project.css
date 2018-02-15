@@ -83,3 +83,14 @@
   height: 40px;
 }
 /* End sticky nav bar */
+
+/* Start post formatting */
+
+.post {
+  height: 100px;
+  text-align: center;
+}
+
+.postEmote {
+  height: 30px;
+}
