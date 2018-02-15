@@ -7,32 +7,38 @@
 /* Style the navbar */
 #navbartop {
   overflow: hidden;
-  background-color: #333;
+  background-color: #ffffff;
+  height: 56px;
 }
 
 /* Navbar links */
 #navbartop a {
-  float: left;
+  float: right;
   display: block;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
-  padding: 14px;
+  padding: 9px;
   text-decoration: none;
+  right: 0px;
+  margin-right: 12px;
 }
 
 #navbarbot {
   overflow: hidden;
-  background-color: #333;
+  background-color: #ffffff;
+  height: 56px;
 }
 
 /* Navbar links */
 #navbarbot a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #000000;
   text-align: center;
-  padding: 14px;
+  padding: 8px;
   text-decoration: none;
+  width: 33%;
+  height: 40px;
 }
 
 
@@ -63,5 +69,17 @@
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .stickybot + .content {
   padding-bottom: 60px;
+}
+
+#navbartop post {
+  text-align: right;
+}
+
+.iconimgtop {
+  height: 40px;
+}
+
+.iconimgbot {
+  height: 40px;
 }
 /* End sticky nav bar */
