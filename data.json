@@ -180,8 +180,59 @@
 			"audio":"",
 			"text":""
 		}
-	
-	
+	],
+
+	"emotes":[
+		{
+			"angry": {
+				"emote1": "emotes/angry1.png",
+				"emote2": "emotes/angry2.png",
+				"emote3": "emotes/angry3.png",
+				"emote4": "emotes/angry4.png"
+			},
+			"happy":{
+				"emote1": "emotes/happy1.png",
+				"emote2": "emotes/happy2.png",
+				"emote3": "emotes/happy3.png",
+				"emote4": "emotes/happy4.png"
+			},
+			"annoyed": {
+				"emote1": "emotes/annoyed1.png",
+				"emote2": "emotes/annoyed2.png",
+				"emote3": "emotes/annoyed3.png",
+				"emote4": "emotes/annoyed4.png"
+			},
+			"nervous":{
+				"emote1": "emotes/nervous1.png",
+				"emote2": "emotes/nervous2.png",
+				"emote3": "emotes/nervous3.png",
+				"emote4": "emotes/nervous4.png"
+			},
+			"sad":{
+				"emote1": "emotes/sad1.png",
+				"emote2": "emotes/sad2.png",
+				"emote3": "emotes/sad3.png",
+				"emote4": "emotes/sad4.png"
+			},
+			"sick":{
+				"emote1": "emotes/sick1.png",
+				"emote2": "emotes/sick2.png",
+				"emote3": "emotes/sick3.png",
+				"emote4": "emotes/sick4.png"
+			},
+			"surprised":{
+				"emote1": "emotes/surprised1.png",
+				"emote2": "emotes/surprised2.png",
+				"emote3": "emotes/surprised3.png",
+				"emote4": "emotes/surprised4.png"
+			},
+			"tired":{
+				"emote1": "emotes/tired1.png",
+				"emote2": "emotes/tired2.png",
+				"emote3": "emotes/tired3.png",
+				"emote4": "emotes/tired4.png"
+			}
+		}
 	]
 }
 

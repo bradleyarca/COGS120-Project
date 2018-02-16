@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bliss - Home</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="/css/bootstrap-theme.css" rel="stylesheet">
+<link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+<link href="/css/bootstrap.css" rel="stylesheet">
+<link href="/css/bootstrap.min.css" rel="stylesheet">
+<link href="/css/project.css" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<!-- Top fixed nav bar -->
+<div id="navbartop">
+
+	<a href="/makePost/{{emoteSrc}}">Next</a>
+	<a href="">How Do You Feel?</a>
+	<a href="/">Cancel</a>
+
+</div>
+<!--
+<div class="topBuffer"></div>
+-->
+<div class = "activeHome">
+	
+	<!-- Iterate through data.json -->
+
+<!-- Happy Emotes -->
+<div class="emoteRow" id="happy">
+<p> Happy </p>
+
+<div class="btn-group" style="width:100%">
+  <button onclick="getEmote()"style="width:25%"><img src="emotes/happy1.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/happy2.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/happy3.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/happy4.png" class="selectEmote"></button>
+</div>
+
+<hr>
+</div>
+
+<!-- Angry Emotes -->
+<div class="emoteRow" id="angry">
+<p> Angry </p>
+
+<div class="btn-group" style="width:100%">
+  <button style="width:25%"><img src="emotes/angry1.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/angry2.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/angry3.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/angry4.png" class="selectEmote"></button>
+</div>
+
+<hr>
+</div>
+
+<!-- Sad Emotes -->
+<div class="emoteRow" id="sad">
+<p> Sad </p>
+
+<div class="btn-group" style="width:100%">
+  <button style="width:25%"><img src="emotes/sad1.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/sad2.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/sad3.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/sad4.png" class="selectEmote"></button>
+</div>
+
+<hr>
+</div>
+
+<!-- Surprised Emotes -->
+<div class="emoteRow" id="surprised">
+<p> Surprised </p>
+
+<div class="btn-group" style="width:100%">
+  <button style="width:25%"><img src="emotes/surprised1.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/surprised2.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/surprised3.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/surprised4.png" class="selectEmote"></button>
+</div>
+
+<hr>
+</div>
+
+<!-- Nervous Emotes -->
+<div class="emoteRow" id="nervous">
+<p> Nervous </p>
+
+<div class="btn-group" style="width:100%">
+  <button style="width:25%"><img src="emotes/nervous1.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/nervous2.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/nervous3.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/nervous4.png" class="selectEmote"></button>
+</div>
+
+<hr>
+</div>
+
+<!-- Tired Emotes -->
+<div class="emoteRow" id="tired">
+<p> Tired </p>
+
+<div class="btn-group" style="width:100%">
+  <button style="width:25%"><img src="emotes/tired1.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/tired2.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/tired3.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/tired4.png" class="selectEmote"></button>
+</div>
+
+<hr>
+</div>
+
+<!-- Sick Emotes -->
+<div class="emoteRow" id="sick">
+<p> Sick </p>
+
+<div class="btn-group" style="width:100%">
+  <button style="width:25%"><img src="emotes/sick1.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/sick2.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/sick3.png" class="selectEmote"></button>
+  <button style="width:25%"><img src="emotes/sick4.png" class="selectEmote"></button>
+</div>
+
+<hr>
+</div>
+
+
+
+	
+</div>
+
+
+<script src="/js/jquery-1.11.0.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/bootstrap.min.js"></script>
+<!-- <script src="/js/topNavOnly.js"></script>-->
+<script src="/js/selectEmote.js"></script>
+</body>
+</html>
